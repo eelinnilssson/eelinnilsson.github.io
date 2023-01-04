@@ -101,7 +101,9 @@ section {
 
 #header-text {
     width: 400px;
-    padding-top: 250px;
+    /* padding-top: 250px; */
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 0;
     justify-content: left;
     text-align: left;
