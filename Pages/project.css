@@ -1,0 +1,273 @@
+:root {
+    /* Light Palette */
+    /* --background: #faeee7;
+    --textColor: #33272a;
+    --accentColor: #f5c5c4; */
+
+    /* Dark Palette */
+    --background: #202020;
+    --textColor: #e2e1ed;
+    --accentColor: #915F6D;
+    /* --accentColor: #6153bb; */
+    /* App Theme / Brand */
+}
+
+
+#footerProject {
+    background-color: var(--background);
+    height: 150px;
+    /* left: 0px;
+    bottom: 0px; */
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    /* margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px; */
+}
+
+.outline {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.text-outline {
+    margin-top: 0;
+}
+
+.title {
+    text-align: center;
+    /* font-size: 28px; */
+    margin-bottom: 0;
+    padding-top: 20px;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+#purposePadding {
+    padding-top: 0px;
+}
+
+
+
+.text-project-page {
+    margin: 15px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.process-image {
+    width: 320px;
+    padding: 15px;
+}
+
+#protoptyping_menu {
+    /* padding-left: 50px; */
+    width: 100px;
+    height: 20px;
+}
+
+
+
+.project-layout {
+    margin-top: 60px;
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.gl {
+    display: table;
+}
+
+.gl-item {
+    display: table-row;
+    list-style-type: circle;
+    color: var(--textColor);
+}
+
+
+
+.section-project {
+    height: 400px;
+    width: 100%;
+    background-color: #04AA6D;
+}
+
+
+
+.vertical-menu {
+    width: auto;
+    padding-left: 10px;
+    /* padding-right: 30px; */
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.vertical-menu a {
+    text-align: end;
+    background-color: var(--background);
+    color: var(--textColor);
+    display: block;
+    padding: 12px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.vertical-menu a:hover {
+    color: var(--accentColor);
+    font-weight: 600;
+}
+
+.vertical-menu a.active {
+    /* background-color: #--; */
+    color: var(--accentColor);
+    font-weight: 600;
+
+}
+
+
+.col-right {
+    width: 100%;
+    padding: 1em;
+    /* border: solid; */
+    margin: 2px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-left {
+    width: 16%;
+    /* padding: 1em; */
+    border-right: solid;
+    border-right-color: var(--accentColor);
+    margin: 2px;
+    justify-content: end;
+
+}
+
+.col-left-footer {
+    width: 16%;
+    margin: 2px;
+    justify-content: end;
+
+}
+
+
+#locked {
+    position: fixed;
+}
+
+.project-image {
+    /* width: 95%; */
+    /* padding: 20px; */
+    /* height: 400px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+figure {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.project-sub-section {
+    display: block;
+    margin-top: 30px;
+    height: fit-content;
+    margin-bottom: 30px;
+    /* background-color: #04AA6D; */
+    /* border-style: solid;
+    border-color: white; */
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+#overview {
+    margin-top: 0;
+}
+
+#summary {
+    margin-top: 30px;
+    height: 100px;
+    /* background-color: pink; */
+    /* border-style: solid;
+    border-color: white; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    /* background-color: aqua; */
+    /* border-style: solid;
+    border-color: black; */
+}
+
+#learnings {}
+
+h1:after {
+    content: ' ';
+    display: block;
+    border-bottom: 3px solid var(--accentColor);
+    padding: 2 4rem;
+
+}
+
+
+#footer1 {
+    justify-content: end;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+}
+
+
+.title-of-project {
+    font-size: 40px;
+    font-weight: 300;
+}
