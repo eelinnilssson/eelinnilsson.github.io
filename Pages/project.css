@@ -195,6 +195,7 @@ figure {
 
 figure img {
     display: block;
+    max-width: 800px;
 }
 
 figcaption {
