@@ -145,7 +145,7 @@ h1 {
 
 .sub-section {
     display: flex;
-    /* justify-content: space-between; */
+    flex-direction: column;
     padding-top: 30px;
     padding-bottom: 20px;
     height: min-content;
@@ -153,6 +153,7 @@ h1 {
     margin-left: 15%;
     margin-right: 15%;
     justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -257,7 +258,7 @@ footer {
 }
 
 #about-me-text {
-    padding-left: 30px;
+    /* padding-left: 30px; */
     /* padding-right: 40px; */
 }
 
@@ -275,11 +276,19 @@ footer {
 
 }
 
-#profile-image {
-    width: 150px;
-    z-index: 2;
+.profileImage {
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 10%;
 
 }
+
+#proIm {
+    border-radius: 1%;
+    width: 300px;
+}
+
+
 
 .polaroid {
     background: #ffffff;
@@ -351,14 +360,8 @@ footer {
 }
 
 #text1 {
-    padding-right: 40px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-
-.project-container {
-    justify-content: center;
+    align-self: flex-end;
+    margin: 0 4.5% 10px 0;
 }
 
 .projectCard {
