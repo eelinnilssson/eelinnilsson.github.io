@@ -405,6 +405,7 @@ footer {
 
 
 .smallCard {
+    display: none;
     width: 250px;
     background-color: var(--accentColor);
     font-size: 12px;
@@ -471,6 +472,10 @@ img {
     height: 300px;
     width: 100%;
     justify-content: center;
+}
+
+.circle-container-list {
+    display: none;
 }
 
 .item1 {
@@ -713,5 +718,21 @@ img {
 
     .contact-info {
         display: none;
+    }
+
+    .projectCard {
+        display: none;
+    }
+
+    .smallCard {
+        display: inline;
+    }
+
+    .circle-container {
+        display: none;
+    }
+
+    .circle-container-list {
+        display: inline;
     }
 }
