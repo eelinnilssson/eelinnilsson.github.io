@@ -205,6 +205,12 @@ footer {
     padding-bottom: 20px;
 }
 
+#signature {
+    font-size: 9px;
+    /* text-align: end; */
+    margin-bottom: 20px;
+}
+
 #about-me {
     display: grid;
     grid-template-columns: auto auto;
