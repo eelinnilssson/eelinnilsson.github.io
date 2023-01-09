@@ -130,7 +130,17 @@ h1 {
 }
 
 
+.reveal {
+    position: relative;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: 1s all ease;
+}
 
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
 
 
 .sub-section {
