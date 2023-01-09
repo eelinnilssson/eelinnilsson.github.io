@@ -710,4 +710,8 @@ img {
     #hamburger-menu {
         display: inline;
     }
+
+    .contact-info {
+        display: none;
+    }
 }
