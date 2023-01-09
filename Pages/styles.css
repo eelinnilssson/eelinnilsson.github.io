@@ -333,7 +333,7 @@ footer {
 
 #text1 {
     align-self: flex-end;
-    margin: 0 4.5% 10px 0;
+    text-align: right;
 }
 
 .projectCard {
@@ -349,6 +349,13 @@ footer {
     border: solid;
     border-color: var(--background);
     border-radius: 8px;
+}
+
+.projectCardTitle {
+    width: 800px;
+    height: fit-content;
+    justify-content: right;
+
 }
 
 .project-image-1 {
