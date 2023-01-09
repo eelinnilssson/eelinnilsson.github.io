@@ -205,40 +205,6 @@ footer {
     padding-bottom: 20px;
 }
 
-/* .topnav {
-    position: fixed;
-    float: right;
-    background-color: var(--background);
-    overflow: hidden;
-    width: 100%;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: var(--textColor);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-
-.topnav a:hover {
-    background-color: var(--accentColor);
-    color: var(--textColor);
-}
-
-.topnav a.active {
-    background-color: var(--accentColor);
-    color: var(--textColor);
-}
-
-.topnav .icon {
-    display: none;
-}
-
-*/
 #about-me {
     display: grid;
     grid-template-columns: auto auto;
