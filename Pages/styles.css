@@ -388,6 +388,19 @@ footer {
 
 }
 
+.project-image-1-small {
+    width: 250px;
+    float: right;
+    left: 450px;
+    order: 1;
+
+}
+
+.titleSmallProject {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
 .description-1 {
     width: 300px;
     height: 300px;
@@ -434,6 +447,8 @@ footer {
     border: solid;
     border-radius: 8px;
     border-color: var(--background);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .descriptionSmall {
