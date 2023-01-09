@@ -25,6 +25,7 @@ body {
     /* margin-top: auto;
     margin-bottom: auto; */
     margin: auto;
+    max-width: 500px;
 }
 
 ul {
@@ -99,13 +100,17 @@ section {
 
 }
 
+
+
 #header-text {
     width: 400px;
     /* padding-top: 250px; */
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 0;
-    justify-content: left;
+
+    margin: auto;
+    /* justify-content: left; */
     text-align: left;
 }
 
@@ -336,6 +341,13 @@ footer {
     text-align: right;
 }
 
+
+
+#text2 {
+    display: none;
+    text-align: center;
+}
+
 .projectCard {
     width: 800px;
     height: 300px;
@@ -357,6 +369,15 @@ footer {
     justify-content: right;
 
 }
+
+.projectCardTitleSmall {
+    height: fit-content;
+    justify-content: right;
+    margin-bottom: 15px;
+
+}
+
+
 
 .project-image-1 {
     width: 500px;
@@ -583,60 +604,10 @@ img {
 
 }
 
-/* 
-
-
-.hamburger {
-    display: none;
-
+.contact-icons:hover {
+    background-color: #915F6D;
 }
 
-
-.list {
-    display: grid;
-    grid-auto-flow: column;
-    list-style-type: none;
-    column-gap: 40px;
-}
-
-@media screen and (min-width: 801px) {
-    .menu {
-        display: block !important;
-    }
-}
-
-@media screen and (max-width: 800px) {
-
-    .header {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .mobileHeader {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .hamburger {
-        display: block;
-        justify-self: end;
-
-    }
-
-
-    .menu {
-        display: none;
-    }
-
-    .list {
-        grid-auto-flow: row;
-        list-style-type: none;
-        row-gap: 40px;
-        column-gap: 0;
-        justify-items: center;
-    }
-} */
 
 
 
@@ -734,5 +705,32 @@ img {
 
     .circle-container-list {
         display: inline;
+    }
+
+    #text1 {
+        display: none;
+    }
+
+    #text2 {
+        display: inline;
+    }
+
+    #home {
+        background-color: var(--background);
+        /* height: 100vh; */
+        width: 98vw;
+        display: table-row;
+        margin: auto;
+        justify-content: center;
+    }
+
+
+    #header-text {
+        width: 400px;
+        /* padding-top: 250px; */
+
+        margin: auto;
+        /* justify-content: left; */
+        text-align: left;
     }
 }
