@@ -740,4 +740,9 @@ img {
     #name {
         text-align: center;
     }
+
+    .progress-img {
+        max-width: 250px;
+        height: auto;
+    }
 }
