@@ -673,7 +673,7 @@ img {
 
 #hamburger-menu a:hover,
 #hamburger-menu a:active {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     background-color: #915F6D;
 }
 
@@ -744,5 +744,15 @@ img {
     .progress-img {
         max-width: 250px;
         height: auto;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    ul li a.active,
+    ul li a:hover {
+        font-weight: 500;
+        background-color: var(--accentColor);
     }
 }
