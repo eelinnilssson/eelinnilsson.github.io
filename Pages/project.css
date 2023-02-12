@@ -279,4 +279,45 @@ h1:after {
 
 .figmaP {
     justify-content: center;
+    width: 700px;
+    height: 450px;
+
+}
+
+.home-logo {
+    display: none;
+
+}
+
+.home-logo:hover {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    #main-menu {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: inline;
+    }
+
+    .col-left {
+        display: none;
+    }
+
+    .figmaP {
+        width: 300px;
+    }
+
+    .col-left-footer {
+        display: none;
+    }
+
+
+    .home-logo {
+        display: inline;
+    }
 }
