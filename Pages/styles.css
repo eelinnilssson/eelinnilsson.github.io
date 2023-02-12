@@ -674,7 +674,7 @@ img {
 #hamburger-menu a:hover,
 #hamburger-menu a:active {
     text-decoration: underline;
-    background-color: #915F6D;
+    /* background-color: #915F6D; */
 }
 
 #hamburger-input:checked+#hamburger-menu #sidebar-menu {

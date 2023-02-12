@@ -29,10 +29,12 @@
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 300;
+
 }
 
 .text-outline {
     margin-top: 0;
+
 }
 
 .title {
@@ -109,8 +111,8 @@ li {
 
 
 .vertical-menu {
-    width: auto;
-    padding-left: 10px;
+    width: 120px;
+    /* padding-left: 10px; */
     /* padding-right: 30px; */
     text-align: right;
     margin-left: auto;
@@ -153,12 +155,13 @@ li {
 }
 
 .col-left {
+    display: flex;
     width: 16%;
     /* padding: 1em; */
     border-right: solid;
     border-right-color: var(--accentColor);
     margin: 2px;
-    justify-content: end;
+    justify-content: center;
 
 }
 
@@ -294,7 +297,6 @@ h1:after {
 }
 
 
-
 @media screen and (max-width: 750px) {
     #main-menu {
         display: none;
@@ -320,4 +322,14 @@ h1:after {
     .home-logo {
         display: inline;
     }
+
+    .outline {
+        line-height: 1;
+    }
+
+    .text-outline {
+        width: 115px;
+    }
+
+
 }

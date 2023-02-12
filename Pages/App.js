@@ -9,6 +9,7 @@ function myFunction() {
 }
 
 const navLi = document.querySelectorAll('nav ul li a');
+// document.getElementById("sidebar-menu-ul")
 const sections = document.querySelectorAll('section');
 
 window.addEventListener('scroll', () => {
@@ -19,10 +20,15 @@ window.addEventListener('scroll', () => {
             current = section.getAttribute('id');
         }
     });
+    console.log(navLi)
     navLi.forEach(li => {
         li.classList.remove('active');
         document.querySelector('nav ul li a[href*= ' + current + ']').classList.add('active');
     });
 });
+
+
+
+
 
 
