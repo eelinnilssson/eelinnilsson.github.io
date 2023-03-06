@@ -198,7 +198,8 @@ figure {
 
 figure img {
     display: block;
-    max-width: 800px;
+    max-width: 700px;
+    max-height: 500px;
 }
 
 figcaption {
